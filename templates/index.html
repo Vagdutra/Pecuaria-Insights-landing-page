@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <!-- ===================================================== -->
+    <!-- META TAGS -->
+    <!-- ===================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="ERP agropecuário offline-first para gestão de pecuária de corte, controle financeiro rural, estoque, rastreabilidade, dashboards e gestão multi-fazenda.">
+
+    <meta name="keywords"
+          content="ERP agropecuário, software pecuária, gestão rural, pecuária de corte, ERP fazenda, controle rebanho">
+
+    <meta name="author"
+          content="Pecuária Insights ERP">
+
+    <!-- ===================================================== -->
+    <!-- TITLE -->
+    <!-- ===================================================== -->
+
+    <title>
+        Pecuária Insights ERP | Gestão Agropecuária Enterprise
+    </title>
+
+    <!-- ===================================================== -->
+    <!-- FAVICON -->
+    <!-- ===================================================== -->
+
+    <link rel="icon"
+      type="image/x-icon"
+      href="{{ url_for('static', filename='favicon/logo.ico') }}">
+
+    <!-- ===================================================== -->
+    <!-- BOOTSTRAP -->
+    <!-- ===================================================== -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- ===================================================== -->
+    <!-- GOOGLE FONTS -->
+    <!-- ===================================================== -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- ===================================================== -->
+    <!-- FONT AWESOME -->
+    <!-- ===================================================== -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- ===================================================== -->
+    <!-- AOS -->
+    <!-- ===================================================== -->
+
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+          rel="stylesheet">
+
+    <!-- ===================================================== -->
+    <!-- CSS CUSTOM -->
+    <!-- ===================================================== -->
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body id="topo">
+
+<!-- ===================================================== -->
+<!-- NAVBAR -->
+<!-- ===================================================== -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+
+    <div class="container">
+
+        <!-- LOGO -->
+        <a class="navbar-brand fw-bold"
+           href="#topo">
+
+            Pecuária Insights ERP
+
+        </a>
+
+        <!-- MOBILE TOGGLER -->
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarContent"
+                aria-controls="navbarContent"
+                aria-expanded="false"
+                aria-label="Abrir navegação">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <!-- NAVIGATION -->
+        <div class="collapse navbar-collapse"
+             id="navbarContent">
+
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="#funcionalidades">
+
+                        Funcionalidades
+
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="#beneficios">
+
+                        Benefícios
+
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="#faq">
+
+                        FAQ
+
+                    </a>
+                </li>
+
+                <!-- CTA NAVBAR -->
+                <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+
+                    <a href="#demo"
+                       class="btn btn-warning custom-btn">
+
+                        Solicitar Demonstração
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<!-- ===================================================== -->
+<!-- HERO SECTION -->
+<!-- ===================================================== -->
+
+<section class="hero-section">
+
+    <!-- OVERLAY -->
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+
+        <div class="row align-items-center min-vh-100">
+
+            <!-- ===================================================== -->
+            <!-- HERO CONTENT -->
+            <!-- ===================================================== -->
+
+            <div class="col-lg-6"
+                 data-aos="fade-right">
+
+                <!-- BADGE -->
+                <span class="hero-badge">
+
+                    ERP Agropecuário Enterprise
+
+                </span>
+
+                <!-- HEADLINE -->
+                <h1 class="hero-title mt-4">
+
+                    O ERP offline-first que transforma
+                    dados da fazenda em gestão estratégica.
+
+                </h1>
+
+                <!-- SUBTITLE -->
+                <p class="hero-subtitle mt-4">
+
+                    Controle financeiro rural, gestão de rebanho,
+                    estoque, indicadores zootécnicos e dashboards
+                    gerenciais em uma única plataforma profissional.
+
+                </p>
+
+                <!-- CTA BUTTONS -->
+                <div class="hero-buttons mt-5">
+
+                    <a href="#demo"
+                       class="btn btn-warning btn-lg custom-btn me-3">
+
+                        Solicitar Demonstração
+
+                    </a>
+
+                    <a href="#funcionalidades"
+                       class="btn btn-outline-light btn-lg">
+
+                        Conhecer o Sistema
+
+                    </a>
+
+                </div>
+
+                <!-- KPIS -->
+                <div class="hero-kpis mt-5">
+
+                    <div class="kpi-card">
+
+                        <h3>100%</h3>
+
+                        <p>Offline</p>
+
+                    </div>
+
+                    <div class="kpi-card">
+
+                        <h3>ERP</h3>
+
+                        <p>Enterprise</p>
+
+                    </div>
+
+                    <div class="kpi-card">
+
+                        <h3>Multi</h3>
+
+                        <p>Fazenda</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- ===================================================== -->
+            <!-- HERO VIDEO -->
+            <!-- ===================================================== -->
+
+            <div class="col-lg-6 text-center"
+                 data-aos="fade-left">
+
+                <div class="video-container">
+
+                    <!-- VIDEO -->
+                    <video autoplay
+                           muted
+                           loop
+                           playsinline
+                           class="hero-video"
+                           id="heroVideo">
+
+                        <source src="{{ url_for('static', filename='img/storyboard.mp4') }}"
+                                type="video/mp4">
+
+                        Seu navegador não suporta vídeos HTML5.
+
+                    </video>
+
+                    <!-- SOUND BUTTON -->
+                    <button class="sound-toggle"
+                            id="soundToggle"
+                            aria-label="Ativar ou desativar áudio">
+
+                        <i class="fa-solid fa-volume-xmark"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===================================================== -->
+<!-- PROBLEMAS -->
+<!-- ===================================================== -->
+
+<section id="problemas"
+         class="problems-section py-5">
+
+    <div class="container">
+
+        <!-- TITLE -->
+        <div class="section-title text-center mb-5"
+             data-aos="fade-up">
+
+            <span class="section-badge">
+
+                Problemas do Mercado
+
+            </span>
+
+            <h2 class="mt-4">
+
+                O maior prejuízo da fazenda moderna
+                está na falta de controle.
+
+            </h2>
+
+            <p class="mt-4">
+
+                Planilhas desconectadas, controles manuais
+                e ausência de integração geram perdas financeiras invisíveis.
+
+            </p>
+
+        </div>
+
+        <!-- CARDS -->
+        <div class="row g-4">
+
+            <!-- CARD -->
+            <div class="col-md-6 col-lg-3">
+
+                <div class="problem-card"
+                     data-aos="zoom-in"
+                     data-aos-delay="100">
+
+                    <i class="fa-solid fa-file-excel"></i>
+
+                    <h4>
+
+                        Planilhas Soltas
+
+                    </h4>
+
+                    <p>
+
+                        Informações descentralizadas
+                        e sem integração operacional.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="col-md-6 col-lg-3">
+
+                <div class="problem-card"
+                     data-aos="zoom-in"
+                     data-aos-delay="200">
+
+                    <i class="fa-solid fa-money-bill-trend-up"></i>
+
+                    <h4>
+
+                        Perdas Financeiras
+
+                    </h4>
+
+                    <p>
+
+                        Custos invisíveis e baixa previsibilidade financeira.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="col-md-6 col-lg-3">
+
+                <div class="problem-card"
+                     data-aos="zoom-in"
+                     data-aos-delay="300">
+
+                    <i class="fa-solid fa-cow"></i>
+
+                    <h4>
+
+                        Falta de Rastreabilidade
+
+                    </h4>
+
+                    <p>
+
+                        Histórico sanitário e operacional inconsistente.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="col-md-6 col-lg-3">
+
+                <div class="problem-card"
+                     data-aos="zoom-in"
+                     data-aos-delay="400">
+
+                    <i class="fa-solid fa-wifi"></i>
+
+                    <h4>
+
+                        Dependência de Internet
+
+                    </h4>
+
+                    <p>
+
+                        Sistemas online falham em regiões rurais.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===================================================== -->
+<!-- SOLUÇÃO -->
+<!-- ===================================================== -->
+
+<section class="solution-section py-5">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <!-- CONTENT -->
+            <div class="col-lg-6"
+                 data-aos="fade-right">
+
+                <span class="section-badge">
+
+                    A Solução
+
+                </span>
+
+                <h2 class="section-heading mt-4">
+
+                    Um ERP desenvolvido para operação agropecuária real.
+
+                </h2>
+
+                <p class="section-text mt-4">
+
+                    O Pecuária Insights ERP integra gestão financeira,
+                    controle zootécnico, estoque, dashboards gerenciais
+                    e rastreabilidade operacional em uma única plataforma.
+
+                </p>
+
+                <!-- ITEMS -->
+                <div class="solution-features mt-5">
+
+                    <div class="solution-item">
+
+                        <i class="fa-solid fa-check"></i>
+
+                        <span>
+
+                            Arquitetura offline-first
+
+                        </span>
+
+                    </div>
+
+                    <div class="solution-item">
+
+                        <i class="fa-solid fa-check"></i>
+
+                        <span>
+
+                            Integração automática entre módulos
+
+                        </span>
+
+                    </div>
+
+                    <div class="solution-item">
+
+                        <i class="fa-solid fa-check"></i>
+
+                        <span>
+
+                            Controle financeiro rural completo
+
+                        </span>
+
+                    </div>
+
+                    <div class="solution-item">
+
+                        <i class="fa-solid fa-check"></i>
+
+                        <span>
+
+                            Dashboards estratégicos em tempo real
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PANELS -->
+            <div class="col-lg-6"
+                 data-aos="fade-left">
+
+                <div class="solution-panel">
+
+                    <div class="panel-card">
+
+                        <h3>Offline-First</h3>
+
+                        <p>
+
+                            Funciona mesmo sem internet.
+
+                        </p>
+
+                    </div>
+
+                    <div class="panel-card">
+
+                        <h3>Multi-Fazenda</h3>
+
+                        <p>
+
+                            Gestão centralizada de propriedades rurais.
+
+                        </p>
+
+                    </div>
+
+                    <div class="panel-card">
+
+                        <h3>Auditoria Completa</h3>
+
+                        <p>
+
+                            Logs e rastreabilidade corporativa.
+
+                        </p>
+
+                    </div>
+
+                    <div class="panel-card">
+
+                        <h3>BI Gerencial</h3>
+
+                        <p>
+
+                            Indicadores estratégicos em tempo real.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- DEMONSTRAÇÃO -->
+<section id="demo"
+         class="demo-section py-5">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <!-- TEXTO -->
+            <div class="col-lg-6">
+
+                <span class="section-badge">
+                    Solicite uma Demonstração
+                </span>
+
+                <h2 class="section-heading mt-4">
+                    Veja como o Pecuária Insights ERP
+                    transforma dados em gestão estratégica.
+                </h2>
+
+                <p class="section-text mt-4">
+                    Solicite uma apresentação do sistema e descubra
+                    como profissionalizar a operação da fazenda
+                    com controle financeiro, rastreabilidade,
+                    dashboards e inteligência operacional.
+                </p>
+
+                <div class="solution-features mt-5">
+
+                    <div class="solution-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Demonstração personalizada</span>
+                    </div>
+
+                    <div class="solution-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Apresentação completa do ERP</span>
+                    </div>
+
+                    <div class="solution-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Suporte para operação multi-fazenda</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- FORM -->
+            <div class="col-lg-6">
+
+                <div class="demo-form-card">
+
+                    <form id="demoForm">
+
+                        <div class="mb-4">
+
+                            <label class="form-label">
+                                Nome
+                            </label>
+
+                            <input type="text"
+                                   class="form-control custom-input"
+                                   placeholder="Seu nome">
+
+                        </div>
+
+                        <div class="mb-4">
+
+                            <label class="form-label">
+                                WhatsApp
+                            </label>
+
+                            <input type="text"
+                                   class="form-control custom-input"
+                                   placeholder="(00) 00000-0000">
+
+                        </div>
+
+                        <div class="mb-4">
+
+                            <label class="form-label">
+                                E-mail
+                            </label>
+
+                            <input type="email"
+                                   class="form-control custom-input"
+                                   placeholder="seuemail@email.com">
+
+                        </div>
+
+                        <div class="mb-4">
+
+                            <label class="form-label">
+                                Tipo de operação
+                            </label>
+
+                            <select class="form-select custom-input">
+
+                                <option>
+                                    Pecuária de Corte
+                                </option>
+
+                                <option>
+                                    Confinamento
+                                </option>
+
+                                <option>
+                                    Consultoria Veterinária
+                                </option>
+
+                                <option>
+                                    Multi-Fazenda
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                        <button type="submit"
+                                class="btn custom-btn w-100">
+
+                            Solicitar Demonstração
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ===================================================== -->
+<!-- FUNCIONALIDADES -->
+<!-- ===================================================== -->
+
+<section id="funcionalidades"
+         class="features-section py-5">
+
+    <div class="container">
+
+        <div class="section-title text-center mb-5"
+             data-aos="fade-up">
+
+            <span class="section-badge">
+
+                Funcionalidades
+
+            </span>
+
+            <h2 class="mt-4">
+
+                Tudo que a operação precisa em um único ERP.
+
+            </h2>
+
+            <p class="mt-4">
+
+                Gestão integrada para pecuária de corte,
+                controle operacional e inteligência gerencial.
+
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <!-- FEATURE -->
+            <div class="col-md-6 col-lg-4">
+
+                <div class="feature-card"
+                     data-aos="fade-up"
+                     data-aos-delay="100">
+
+                    <i class="fa-solid fa-cow"></i>
+
+                    <h4>
+
+                        Gestão de Rebanho
+
+                    </h4>
+
+                    <p>
+
+                        Cadastro individual e por lote
+                        com rastreabilidade completa.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- FEATURE -->
+            <div class="col-md-6 col-lg-4">
+
+                <div class="feature-card"
+                     data-aos="fade-up"
+                     data-aos-delay="200">
+
+                    <i class="fa-solid fa-scale-balanced"></i>
+
+                    <h4>
+
+                        Controle Zootécnico
+
+                    </h4>
+
+                    <p>
+
+                        Pesagens, GMD e evolução produtiva.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- FEATURE -->
+            <div class="col-md-6 col-lg-4">
+
+                <div class="feature-card"
+                     data-aos="fade-up"
+                     data-aos-delay="300">
+
+                    <i class="fa-solid fa-sack-dollar"></i>
+
+                    <h4>
+
+                        Financeiro Rural
+
+                    </h4>
+
+                    <p>
+
+                        Fluxo de caixa e controle financeiro completo.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- FEATURE -->
+            <div class="col-md-6 col-lg-4">
+
+                <div class="feature-card"
+                     data-aos="fade-up"
+                     data-aos-delay="400">
+
+                    <i class="fa-solid fa-boxes-stacked"></i>
+
+                    <h4>
+
+                        Estoque Inteligente
+
+                    </h4>
+
+                    <p>
+
+                        Controle de insumos, rações e medicamentos.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- FEATURE -->
+            <div class="col-md-6 col-lg-4">
+
+                <div class="feature-card"
+                     data-aos="fade-up"
+                     data-aos-delay="500">
+
+                    <i class="fa-solid fa-shield-virus"></i>
+
+                    <h4>
+
+                        Gestão Sanitária
+
+                    </h4>
+
+                    <p>
+
+                        Protocolos, vacinação e histórico sanitário.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- FEATURE -->
+            <div class="col-md-6 col-lg-4">
+
+                <div class="feature-card"
+                     data-aos="fade-up"
+                     data-aos-delay="600">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                    <h4>
+
+                        Dashboards e KPIs
+
+                    </h4>
+
+                    <p>
+
+                        Indicadores estratégicos da operação.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===================================================== -->
+<!-- BENEFÍCIOS -->
+<!-- ===================================================== -->
+
+<section id="beneficios"
+         class="benefits-section py-5">
+
+    <div class="container">
+
+        <div class="section-title text-center mb-5"
+             data-aos="fade-up">
+
+            <span class="section-badge">
+
+                Benefícios Reais
+
+            </span>
+
+            <h2 class="mt-4">
+
+                Gestão baseada em dados reais da operação.
+
+            </h2>
+
+        </div>
+
+        <div class="row g-4">
+
+            <!-- BENEFIT -->
+            <div class="col-md-6">
+
+                <div class="benefit-box"
+                     data-aos="fade-up"
+                     data-aos-delay="100">
+
+                    <h3>
+
+                        Redução de perdas financeiras
+
+                    </h3>
+
+                    <p>
+
+                        Identifique gargalos e reduza desperdícios.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- BENEFIT -->
+            <div class="col-md-6">
+
+                <div class="benefit-box"
+                     data-aos="fade-up"
+                     data-aos-delay="200">
+
+                    <h3>
+
+                        Maior eficiência por lote
+
+                    </h3>
+
+                    <p>
+
+                        Acompanhe desempenho zootécnico com precisão.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===================================================== -->
+<!-- FAQ -->
+<!-- ===================================================== -->
+
+<section id="faq"
+         class="faq-section py-5">
+
+    <div class="container">
+
+        <!-- SECTION TITLE -->
+        <div class="section-title text-center mb-5"
+             data-aos="fade-up">
+
+            <span class="section-badge">
+
+                FAQ
+
+            </span>
+
+            <h2 class="mt-4">
+
+                Perguntas Frequentes
+
+            </h2>
+
+            <p class="mt-4">
+
+                Tire dúvidas sobre funcionamento,
+                instalação, segurança e operação do ERP.
+
+            </p>
+
+        </div>
+
+        <!-- ACCORDION -->
+        <div class="accordion"
+             id="faqAccordion">
+
+            <!-- FAQ 1 -->
+            <div class="accordion-item"
+                 data-aos="fade-up"
+                 data-aos-delay="100">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq1"
+                            aria-expanded="true"
+                            aria-controls="faq1">
+
+                        O sistema precisa de internet para funcionar?
+
+                    </button>
+
+                </h2>
+
+                <div id="faq1"
+                     class="accordion-collapse collapse show"
+                     data-bs-parent="#faqAccordion">
+
+                    <div class="accordion-body">
+
+                        Não. O Pecuária Insights ERP possui arquitetura
+                        offline-first e funciona totalmente sem internet,
+                        ideal para operações rurais com conectividade limitada.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="accordion-item"
+                 data-aos="fade-up"
+                 data-aos-delay="200">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq2"
+                            aria-expanded="false"
+                            aria-controls="faq2">
+
+                        O sistema é difícil de utilizar?
+
+                    </button>
+
+                </h2>
+
+                <div id="faq2"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#faqAccordion">
+
+                    <div class="accordion-body">
+
+                        Não. A interface foi desenvolvida para uso operacional
+                        prático no dia a dia da fazenda, com foco em produtividade,
+                        clareza visual e facilidade de navegação.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="accordion-item"
+                 data-aos="fade-up"
+                 data-aos-delay="300">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq3"
+                            aria-expanded="false"
+                            aria-controls="faq3">
+
+                        O ERP funciona para múltiplas fazendas?
+
+                    </button>
+
+                </h2>
+
+                <div id="faq3"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#faqAccordion">
+
+                    <div class="accordion-body">
+
+                        Sim. O sistema possui estrutura multi-fazenda,
+                        permitindo gerenciamento centralizado de diferentes
+                        propriedades e clientes, ideal para veterinários
+                        e consultorias agropecuárias.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="accordion-item"
+                 data-aos="fade-up"
+                 data-aos-delay="400">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq4"
+                            aria-expanded="false"
+                            aria-controls="faq4">
+
+                        Existe risco de perda de dados?
+
+                    </button>
+
+                </h2>
+
+                <div id="faq4"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#faqAccordion">
+
+                    <div class="accordion-body">
+
+                        O sistema possui mecanismos de auditoria,
+                        rastreabilidade operacional e estrutura preparada
+                        para backups locais, garantindo maior segurança
+                        das informações da operação.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- FAQ 5 -->
+            <div class="accordion-item"
+                 data-aos="fade-up"
+                 data-aos-delay="500">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq5"
+                            aria-expanded="false"
+                            aria-controls="faq5">
+
+                        O sistema funciona em qualquer tipo de fazenda?
+
+                    </button>
+
+                </h2>
+
+                <div id="faq5"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#faqAccordion">
+
+                    <div class="accordion-body">
+
+                        Sim. O ERP foi desenvolvido para operações
+                        agropecuárias reais, podendo ser utilizado em
+                        pecuária de corte, confinamentos, fazendas de engorda,
+                        consultorias e operações multi-unidade.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- FAQ 6 -->
+            <div class="accordion-item"
+                 data-aos="fade-up"
+                 data-aos-delay="600">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq6"
+                            aria-expanded="false"
+                            aria-controls="faq6">
+
+                        O sistema gera relatórios e dashboards?
+
+                    </button>
+
+                </h2>
+
+                <div id="faq6"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#faqAccordion">
+
+                    <div class="accordion-body">
+
+                        Sim. O sistema possui dashboards gerenciais,
+                        KPIs agropecuários e relatórios estratégicos
+                        para suporte à tomada de decisão baseada em dados.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- FAQ 7 -->
+            <div class="accordion-item"
+                 data-aos="fade-up"
+                 data-aos-delay="700">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq7"
+                            aria-expanded="false"
+                            aria-controls="faq7">
+
+                        O ERP pode evoluir futuramente para banco SQL?
+
+                    </button>
+
+                </h2>
+
+                <div id="faq7"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#faqAccordion">
+
+                    <div class="accordion-body">
+
+                        Sim. A arquitetura foi desenvolvida com estrutura
+                        desacoplada e preparada para futura migração
+                        para PostgreSQL ou MySQL, preservando escalabilidade
+                        e evolução tecnológica.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===================================================== -->
+<!-- CTA FINAL -->
+<!-- ===================================================== -->
+
+<section id="cta"
+         class="cta-section">
+
+    <div class="container text-center">
+
+        <span class="section-badge">
+
+            Gestão Agropecuária Enterprise
+
+        </span>
+
+        <h2 class="mt-4">
+
+            Transforme sua fazenda em uma operação orientada por dados.
+
+        </h2>
+
+        <p class="mt-4">
+
+            Controle financeiro, rastreabilidade e inteligência gerencial
+            em um único ERP agropecuário profissional.
+
+        </p>
+
+        <a href="#demo"
+           class="btn btn-warning btn-lg custom-btn mt-4">
+
+            Solicitar Demonstração
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ===================================================== -->
+<!-- BOOTSTRAP -->
+<!-- ===================================================== -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- ===================================================== -->
+<!-- AOS -->
+<!-- ===================================================== -->
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+    AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 100
+    });
+
+</script>
+
+<!-- ===================================================== -->
+<!-- CUSTOM JS -->
+<!-- ===================================================== -->
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+<script>
+
+/* ===================================================== */
+/* FORM → WHATSAPP                                       */
+/* PECUÁRIA INSIGHTS ERP                                 */
+/* ===================================================== */
+
+document
+    .getElementById('demoForm')
+    .addEventListener('submit', function(event){
+
+    event.preventDefault();
+
+    /* ================================================= */
+    /* CAPTURA DOS CAMPOS                               */
+    /* ================================================= */
+
+    const nome =
+        document.querySelector('input[type="text"]')
+        .value
+        .trim();
+
+    const whatsapp =
+        document.querySelectorAll('input[type="text"]')[1]
+        .value
+        .trim();
+
+    const email =
+        document.querySelector('input[type="email"]')
+        .value
+        .trim();
+
+    const operacao =
+        document.querySelector('select')
+        .value;
+
+    /* ================================================= */
+    /* VALIDAÇÃO                                         */
+    /* ================================================= */
+
+    if(!nome || !whatsapp || !email){
+
+        alert(
+            'Por favor, preencha todos os campos.'
+        );
+
+        return;
+
+    }
+
+    /* ================================================= */
+    /* MENSAGEM                                          */
+    /* ================================================= */
+
+    const mensagem = `
+Olá, tenho interesse no Pecuária Insights ERP.
+
+Nome: ${nome}
+
+WhatsApp: ${whatsapp}
+
+E-mail: ${email}
+
+Tipo de Operação: ${operacao}
+
+Gostaria de solicitar uma demonstração do sistema.
+
+`;
+
+    /* ================================================= */
+    /* URL WHATSAPP                                      */
+    /* ================================================= */
+
+    const numero =
+        '5551998812254';
+
+    const url =
+        `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+
+    /* ================================================= */
+    /* ABRE WHATSAPP                                     */
+    /* ================================================= */
+
+    window.open(
+        url,
+        '_blank'
+    );
+
+});
+
+</script>
+
+</body>
+</html>
