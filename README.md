@@ -1,4 +1,3 @@
-```markdown
 # 🐂 Pecuária Insights ERP | B2B Landing Page & Lead Generation
 
 Este repositório contém o código-fonte do *touchpoint* digital oficial do **Pecuária Insights ERP**. Mais do que uma página de apresentação institucional, esta aplicação foi arquitetada como um funil de conversão focado em captar e qualificar leads B2B (produtores rurais, confinamentos e consultorias) de forma direta e sem atritos.
@@ -46,13 +45,3 @@ A tecnologia foi escolhida para garantir alta performance, carregamento instant�
 │   │   └── storyboard.mp4  # Mídias otimizadas
 │   └── /favicon
 └── index.html              # Ponto de entrada e estrutura semântica principal
-
-```
-
----
-
-## ⚙️ Implantação (Deploy)
-
-Por ser uma aplicação baseada em client-side (HTML/CSS/JS), o deploy pode ser realizado em qualquer CDN ou serviço de hospedagem estática (como Vercel, Render, AWS S3 ou GitHub Pages) com alta disponibilidade global e tempo de resposta otimizado.
-
-```
