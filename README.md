@@ -45,3 +45,7 @@ A tecnologia foi escolhida para garantir alta performance, carregamento instant�
 │   │   └── storyboard.mp4  # Mídias otimizadas
 │   └── /favicon
 └── index.html              # Ponto de entrada e estrutura semântica principal
+
+
+⚙️ Implantação (Deploy)
+Por ser uma aplicação baseada em client-side (HTML/CSS/JS), o deploy pode ser realizado em qualquer CDN ou serviço de hospedagem estática (como Vercel, Render, AWS S3 ou GitHub Pages) com alta disponibilidade global e tempo de resposta otimizado.
